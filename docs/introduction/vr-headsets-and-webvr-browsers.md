@@ -44,17 +44,19 @@ are constrained to looking around and wiggling the controller.
 
 [HTC Vive]: https://www.vive.com/
 [Oculus Rift]: https://www.oculus.com/rift/
+[Oculus Go]: https://www.oculus.com/go/
 [Google Daydream]: https://vr.google.com/daydream/
 [Samsung GearVR]: http://www.samsung.com/global/galaxy/gear-vr/
 [Windows Mixed Reality]: https://developer.microsoft.com/en-us/windows/mixed-reality/
 
-| Headset                 | Platform | Positional Tracking | Controllers        | Controller Positional Tracking |
-|-------------------------|----------|---------------------|--------------------|---------------------------------|
-| [HTC Vive]              | PC       | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
-| [Oculus Rift]           | PC       | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
-| [Google Daydream]       | Android  | :x:                 | :white_check_mark: | :x:                             |
-| [Samsung GearVR]        | Android  | :x:                 | :white_check_mark: | :x:                             |
-| [Windows Mixed Reality] | PC       | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
+| Headset                 | Platform   | Positional Tracking | Controllers        | Controller Positional Tracking |
+|-------------------------|------------|---------------------|--------------------|---------------------------------|
+| [HTC Vive]              | PC         | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
+| [Oculus Rift]           | PC         | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
+| [Oculus Go]             | Standalone | :x:                 | :white_check_mark: | :x:                             |
+| [Google Daydream]       | Android    | :x:                 | :white_check_mark: | :x:                             |
+| [Samsung GearVR]        | Android    | :x:                 | :white_check_mark: | :x:                             |
+| [Windows Mixed Reality] | PC         | :white_check_mark:  | :white_check_mark: | :white_check_mark:              |
 
 ## What is WebVR?
 
@@ -114,6 +116,7 @@ VR headsets that A-Frame supports include:
 
 - HTC Vive with controllers and trackers
 - Oculus Rift with Touch controllers
+- Oculus Go with controller
 - Google Daydream with controller
 - Samsung GearVR with controller
 - Google Cardboard
